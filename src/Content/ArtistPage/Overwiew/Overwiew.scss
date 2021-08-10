@@ -1,0 +1,15 @@
+.overwiew {
+  position: relative;
+  top: -40px;
+  width: 100%;
+  font-size: 14px;
+
+  &__artist {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__artist-wrapp {
+    width: 75%;
+  }
+}

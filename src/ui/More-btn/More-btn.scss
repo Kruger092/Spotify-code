@@ -1,0 +1,25 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  padding-bottom: 7px;
+  border: 1px solid #aaaaaa;
+  border-radius: 50%;
+  background: 0;
+  color: #aaaaaa;
+  font-size: 18px;
+  font-weight: bold;
+
+  &:hover {
+    cursor: pointer;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+
+  &:active {
+    box-shadow: inset 0px 0px 2px 1px rgba(255,255,255,0.94);
+  }
+}

@@ -1,0 +1,21 @@
+.control-track {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+
+  &__play {
+    font-size: 48px;
+  }
+
+  button {
+    background: 0;
+    border: 0;
+    color: #c8c8c8;
+    cursor: pointer;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.popular-track {
+  width: 100%;
+  color: #aaaaaa;
+  padding: 30px 20px 0;
+
+  &__title {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    width: 35%;
+  }
+
+  &__explicit {
+    width: 60px;
+    border: 1px solid #424242;
+    text-align: center;
+    color: #424242;
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+
+  button {
+    margin: 15px 0;
+    padding: 5px 15px;
+    width: 125px;
+    height: auto;
+  }
+
+  img {
+    width: 45px;
+    height: auto;
+    margin-right: 15px;
+  }
+
+  li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #282828;
+    border-bottom: 1px solid #282828;
+    
+    span {
+      margin: 0 25px;
+    }
+
+    p{
+      color: #fff;
+    }
+  }
+}

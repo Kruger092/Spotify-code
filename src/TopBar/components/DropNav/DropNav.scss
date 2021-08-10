@@ -1,0 +1,45 @@
+.drop-nav {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 160px;
+  text-align: center;
+  background: #282828;
+  border-radius: 5px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top:-17px;
+    right: 10px;
+    border: 7px solid transparent;
+    border-bottom: 10px solid #282828;
+  }
+
+  li {
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    
+    &:hover {
+      background: #5c5c5c;
+    }
+
+    a {
+      display: block;
+      padding: 0 20px;
+      font-weight: 400;
+    }
+  }
+}
+
+.drop-nav.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}

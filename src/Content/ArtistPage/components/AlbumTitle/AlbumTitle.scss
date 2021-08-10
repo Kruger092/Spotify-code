@@ -1,0 +1,27 @@
+.albums-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0;
+  border-bottom: 1px solid #424242;
+  text-transform: uppercase;
+
+  &__structure {
+    display: flex;
+    margin-bottom: 5px;
+
+    span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      font-size: 18px;
+
+      &:hover {
+        background-color: #282828;
+      }
+    }
+  }
+}

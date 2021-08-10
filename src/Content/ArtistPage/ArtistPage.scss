@@ -1,0 +1,30 @@
+.artist-page {
+  width: 100%;
+  height: calc(100vh - 120px);
+  background: #181818;
+  overflow-y: scroll;
+}
+
+.artist-nav {
+  position: relative;
+  top: -60px;
+  display: flex;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.5);
+
+  button {
+    height: 100%;
+    margin: 0 20px;
+    border: 0;
+    background: 0;
+    color: #aaaaaa;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 14px;
+
+    &:hover {
+      border-bottom: 4px solid #1ed760;
+      color: #fff;
+    }
+  }
+}

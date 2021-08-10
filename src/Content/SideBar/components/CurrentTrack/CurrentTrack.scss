@@ -1,0 +1,27 @@
+.current-track{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  a {
+    display: block;
+    font-size: 14px;
+
+    &:hover {
+      text-decoration: underline;
+      color: #fff;
+    }
+  }
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+
+  span {
+    text-align: center;
+    width: 25%;
+    font-size: 16px;
+    color: #fff;
+  }
+}

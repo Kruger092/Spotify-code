@@ -1,0 +1,22 @@
+.play-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: auto;
+  margin-right: 10px;
+  padding: 0 15px 0 5px;
+  background: #1ed760;
+  color: #fff;
+  border: 0;
+  border-radius: 20px;
+
+  &:hover {
+    background: #1fe263;
+    cursor: pointer;
+  }
+
+  &:active {
+    box-shadow: inset 0px 0px 2px 1px rgba(21, 155, 16, 0.94);
+  }
+}

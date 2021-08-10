@@ -1,0 +1,15 @@
+.page-flow{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+  margin-right: 10px;
+
+  .material-icons-round {
+    cursor: pointer;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}

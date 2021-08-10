@@ -1,0 +1,38 @@
+.artists-list {
+  color: #fff;
+  width: 25%;
+  margin-left: 15px;
+
+  p {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #aaaaaa;
+  }
+
+  li{
+    height: 55px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    background: #282828;
+    padding: 10px 5px;
+    margin: 5px 0;
+
+    &:hover {
+      background: #363636;
+
+      a{
+        color:#fff;
+      }
+    }
+  }
+
+  img {
+    display: block;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+    object-fit: cover;
+  }
+}

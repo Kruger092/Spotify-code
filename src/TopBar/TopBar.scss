@@ -1,0 +1,17 @@
+.top-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 10px;
+  color: #aaaaaa;
+  background: #282828;
+
+  &__ui {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    margin-left: 10px;
+  }
+}

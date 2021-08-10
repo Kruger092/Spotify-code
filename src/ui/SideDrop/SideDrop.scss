@@ -1,0 +1,17 @@
+.side-drop-btn {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  background: none;
+  border: 0;
+  font-size: 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  
+  .arrow-btn {
+    font-size: 24px;
+  }
+}

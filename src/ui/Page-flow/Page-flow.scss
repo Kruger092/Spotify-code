@@ -2,14 +2,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 15%;
-  margin-right: 10px;
+  width: 70px;
+  margin-right: 5px;
+}
 
-  .material-icons-round {
-    cursor: pointer;
 
-    &:hover {
-      color: #fff;
+@media screen and (max-width: 900px) {
+  .page-flow{
+    width: 45px;
+
+    .material-icons-round{
+      margin-right: 0;
     }
   }
 }

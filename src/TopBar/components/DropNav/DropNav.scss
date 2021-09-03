@@ -16,7 +16,7 @@
     content: '';
     position: absolute;
     top:-17px;
-    right: 10px;
+    right: 25px;
     border: 7px solid transparent;
     border-bottom: 10px solid #282828;
   }
@@ -42,4 +42,14 @@
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+}
+
+@media screen and (max-width: 1200px) {
+  .drop-nav {
+    width: 110px;
+
+    li {
+      padding: 5px;
+    }
+  }
 }

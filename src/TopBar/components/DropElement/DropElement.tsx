@@ -9,15 +9,15 @@ export const DropElement: FC = () => {
 
   const handleClick = (e : MouseEvent) => {
     if (dropDownElement.current.contains(e.target)) {
-      return;
+      return
     } else {
-      setIsOpen(false);
+      setIsOpen(false)
     }
-  };
+  }
 
   useEffect(() => {
     document.addEventListener("click", handleClick);
-    return () => document.removeEventListener("click", handleClick);
+    return () => document.removeEventListener("click", handleClick)
   }, []);
 
   return( 

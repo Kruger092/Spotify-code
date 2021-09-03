@@ -1,12 +1,12 @@
 import React, {FC} from 'react'
-import './Name.scss'
+import './ArtistInfo.scss'
 
-interface INameProps {
+interface IArtistInfoProps {
   type: string
   pseudonym: string
 }
 
-export const Name: FC <INameProps> = ({ type, pseudonym } ) => {
+export const ArtistInfo: FC <IArtistInfoProps> = ({ type, pseudonym } ) => {
 
   return (
     <>

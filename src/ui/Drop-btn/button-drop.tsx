@@ -3,7 +3,7 @@ import './button-drop.scss'
 
 interface IDropBtnProps {
   open: boolean
-  setIsOpen: (value: boolean | ((prevVar: boolean) => boolean)) => void
+  setIsOpen: (opened: boolean) => void
 }
 
 export const DropBtn: FC<IDropBtnProps> = ({ open, setIsOpen }) => {

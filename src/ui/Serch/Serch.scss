@@ -11,3 +11,12 @@
   background-size: 10%;
   background-position: 5px;
 }
+
+@media screen and (max-width: 900px) {
+  .search {
+    width: 140px;
+    height: 20px;
+    padding: 3px 5px 3px 30px;
+    font-size: 14px;
+  }
+}

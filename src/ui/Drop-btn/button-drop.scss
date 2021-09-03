@@ -1,7 +1,16 @@
 .drop-menu-btn {
+  display: flex;
+  align-items: center;
   background: none;
   border: 0;
   font-size: 36px;
   color: #aaaaaa;
+}
+
+
+@media screen and (max-width: 900px) {
+  .drop-menu-btn {
+    font-size: 28px;
+  }
 }
 

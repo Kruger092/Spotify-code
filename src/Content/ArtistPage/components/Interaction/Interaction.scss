@@ -22,3 +22,28 @@
     }
   }
 }
+
+@media screen and (max-width: 1100px) {
+  .interaction {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 522px) {
+  .interaction  {
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .interaction__meta {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .interaction__buttons {
+    justify-content: center;
+    margin-top: 10px;
+  }
+}

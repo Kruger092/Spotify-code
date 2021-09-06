@@ -13,3 +13,13 @@
     width: 75%;
   }
 }
+
+@media screen and (max-width: 1100px) {
+  .overwiew__artist {
+    flex-direction: column;
+  }
+
+  .overwiew__artist-wrapp {
+    width: 100%;
+  }
+}

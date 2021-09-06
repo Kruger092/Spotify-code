@@ -13,7 +13,7 @@ export const SongsTitle: FC = () => {
         <span className="material-icons-round">
           alarm
         </span>
-        <span className="material-icons-round">
+        <span className="material-icons-round hide-icon">
           thumb_up
         </span>
       </div>

@@ -8,7 +8,7 @@ export const ArtistsList: FC = () => {
 
   const artistsItem = artistsList.map((person : any , index : number) => {
     return (
-      <ul key={index}>
+      <ul key={index} className="artists-list__item">
         <li>
           <img src={person.photo} alt="sss" />
           <a href="/">{person.name}</a>
@@ -20,6 +20,8 @@ export const ArtistsList: FC = () => {
   return(
     <div className="artists-list">
       <p>Related Artists</p>
-      {artistsItem}
+      <div className="artists-list__wrap">
+        {artistsItem}
+      </div>
     </div>
   )}

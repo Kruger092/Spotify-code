@@ -20,10 +20,12 @@ export const SongList: FC = () => {
           <span className="explicit">
             Explicit
           </span>
-          <p>{person.time}</p>
-          <span className="material-icons-round">
-            {person.rating}
-          </span>
+          <div className="wrapper-for-tablet">
+            <p>{person.time}</p>
+            <span className="material-icons-round hide-icon">
+              {person.rating}
+            </span>
+          </div>
         </div>
       </li>)
   })

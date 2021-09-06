@@ -15,32 +15,38 @@ export const SideBar: FC = () => {
   return(
     <section className="side-bar">
       <nav className="side-bar__nav">
-        <SideDrop
-          value={'Main'}
-          drop={menuDrop}
-          setIsDrop={setIsmenuDrop}
-        />
-        <ul className={`side-bar__menu  ${menuDrop ? "active" : "inactive"}`}>
-          <NavItem />
-        </ul>
+        <div className="container-wrap">
+          <SideDrop
+            value={'Main'}
+            drop={menuDrop}
+            setIsDrop={setIsmenuDrop}
+          />
+          <ul className={`side-bar__menu  ${menuDrop ? "active" : "inactive"}`}>
+            <NavItem />
+          </ul>
+        </div>
 
-        <SideDrop
-          value={'Your music'}
-          drop={musicDrop}
-          setIsDrop={setIsMusicDrop}
-        />
-        <ul className={`side-bar__menu  ${musicDrop ? "active" : "inactive"}`}>
-          <MusicItem />
-        </ul>
+        <div className="container-wrap">
+          <SideDrop
+            value={'Your music'}
+            drop={musicDrop}
+            setIsDrop={setIsMusicDrop}
+          />
+          <ul className={`side-bar__menu  ${musicDrop ? "active" : "inactive"}`}>
+            <MusicItem />
+          </ul>
+        </div>
 
-        <SideDrop
-          value={'Playlist'}
-          drop={playlistDrop}
-          setIsDrop={setIsPlaylistDrop}
-        />
-        <ul className={`side-bar__menu  ${playlistDrop ? "active" : "inactive"}`}>
-          <PlaylistItem />
-        </ul>
+        <div className="container-wrap">
+          <SideDrop
+            value={'Playlist'}
+            drop={playlistDrop}
+            setIsDrop={setIsPlaylistDrop}
+          />
+          <ul className={`side-bar__menu  ${playlistDrop ? "active" : "inactive"}`}>
+            <PlaylistItem />
+          </ul>
+        </div>
       </nav>
       <AddPlaylist />
       <CurrentTrack />

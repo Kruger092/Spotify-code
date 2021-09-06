@@ -25,3 +25,15 @@
     color: #fff;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .current-track {
+    justify-content: space-between;
+    border-top: 1px solid #000;
+  }
+
+  .current-track__about {
+    width: 85%;
+    margin-left: 5px;
+  }
+}

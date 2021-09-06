@@ -15,3 +15,13 @@
     color: #666666;
   }
 }
+
+@media screen and (max-width: 522px) {
+  .about-artist {
+    height: 450px;
+  }
+
+  .about-artist__info {
+    flex-direction: column;
+  }
+}

@@ -15,3 +15,11 @@
     font-size: 24px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .side-drop-btn {
+    justify-content: start;
+    margin-top: 12px;
+    margin-bottom: 0;
+  }
+}

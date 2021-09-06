@@ -30,14 +30,25 @@
     }
   }
 
-  &__rating{
+  &__rating {
     display: flex;
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    width: 360px;
+    width: 35%;
+    
+    .wrapper-for-tablet {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 350px;
 
-    .material-icons-round{
+      p {
+        margin-right: 40px;
+      }
+    }
+
+    .material-icons-round {
       margin: 0;
     }
 
@@ -50,5 +61,17 @@
       font-size: 11px;
       text-transform: uppercase;
     }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .song-list-element__rating .wrapper-for-tablet p {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .song-list-element__rating .explicit {
+    display: none;
   }
 }

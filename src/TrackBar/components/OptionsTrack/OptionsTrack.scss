@@ -2,8 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 25%;
+  width: 35%;
   font-size: 14px;
+
+  a {
+    margin-right: 15px;
+  }
 
   .material-icons-round {
     font-size: 14px;
@@ -13,6 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 110px;
 
     p {
       margin-right: 5px;
@@ -27,6 +32,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 150px;
 
     &:hover {
       color: #fff;
@@ -37,5 +43,17 @@
 @media screen and (max-width: 900px) {
   .material-icons-round {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .options-track {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .options-track {
+    width: 90%;
   }
 }

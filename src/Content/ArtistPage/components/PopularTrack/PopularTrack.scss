@@ -11,7 +11,7 @@
   &__item {
     display: flex;
     align-items: center;
-    width: 35%;
+    width: 45%;
   }
 
   &__explicit {
@@ -57,3 +57,20 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .popular-track button {
+    margin: 15px auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .popular-track__item {
+    width: 75%;
+  }
+
+  .popular-track__explicit  {
+    display: none;
+  }
+}
+

@@ -6,8 +6,10 @@ import './TrackBar.scss'
 
 export const TrackBar: FC = () => (
   <div className='track-bar'>
-    <ControlTrack />
-    <ProgresTrack />
+    <div className="track-bar__wrap">
+      <ControlTrack />
+      <ProgresTrack />
+    </div>
     <OptinsTrack />
   </div>
 )

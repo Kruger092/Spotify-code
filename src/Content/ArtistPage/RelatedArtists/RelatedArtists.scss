@@ -63,3 +63,27 @@
     }
   }
 }
+
+
+@media screen and (max-width: 1200px) {
+  .related-page__card {
+    width: calc(33% - 30px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .related-page__card {
+    // height: 250px;
+    width: calc(45% - 30px);
+  }
+}
+
+@media screen and (max-width: 524px) {
+  .related-page {
+    justify-content: center;
+  }
+
+  .related-page__card {
+    width: 80%
+  }
+}
